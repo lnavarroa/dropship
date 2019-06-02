@@ -13,3 +13,31 @@ From https://github.com/lnavarroa/dropship
 
 Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
 $
+$ git add .
+warning: LF will be replaced by CRLF in IonAuth/CHANGELOG.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in IonAuth/INSTALLING.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in IonAuth/LICENSE.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in IonAuth/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in IonAuth/UPGRADING.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in IonAuth/config/ion_auth.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in IonAuth/contributing.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in IonAuth/controllers/Auth.php.
+The file will have its original line endings in your working directory.
+
+
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git commit -m "Instalación FrameWork"
+[master ec2c27a] Instalación FrameWork
+ 2212 files changed, 646169 insertions(+)
+ create mode 100644 IonAuth/CHANGELOG.md
+ create mode 100644 IonAuth/INSTALLING.md
+ create mode 100644 IonAuth/LICENSE
+ create mode 100644 IonAuth/README.md
