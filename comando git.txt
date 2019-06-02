@@ -1,0 +1,15 @@
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/dropship/.git/
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git pull https://github.com/lnavarroa/dropship master
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/lnavarroa/dropship
+ * branch            master     -> FETCH_HEAD
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$
