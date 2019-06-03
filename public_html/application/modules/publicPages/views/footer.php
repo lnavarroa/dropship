@@ -48,8 +48,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <header class="bg-primary text-white">
     <div class="container text-center">
-      <h1>Bienvenido a DropShip Chile</h1>
-      <p class="lead">Portal de negocios para emprendedores</p>
+      <h1>Welcome to Scrolling Nav</h1>
+      <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
     </div>
   </header>
 

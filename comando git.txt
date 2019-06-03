@@ -41,3 +41,55 @@ $ git commit -m "Instalación FrameWork"
  create mode 100644 IonAuth/INSTALLING.md
  create mode 100644 IonAuth/LICENSE
  create mode 100644 IonAuth/README.md
+
+
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git add .
+warning: LF will be replaced by CRLF in public_html/application/config/config.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public_html/application/modules/publicPages/views/publicView.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in startbootstrap-bare-gh-pages/.travis.yml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in startbootstrap-bare-gh-pages/LICENSE.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in startbootstrap-bare-gh-pages/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in startbootstrap-bare-gh-pages/gulpfile.js.
+
+
+
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git commit -m "navbar 1era iteración"
+[master 304610b] navbar 1era iteración
+ 38 files changed, 49864 insertions(+), 4 deletions(-)
+ create mode 100644 startbootstrap-bare-gh-pages.zip
+ create mode 100644 startbootstrap-bare-gh-pages/.gitignore
+ create mode 100644 startbootstrap-bare-gh-pages/.travis.yml
+ create mode 100644 startbootstrap-bare-gh-pages/LICENSE
+ create mode 100644 startbootstrap-bare-gh-pages/README.md
+ create mode 100644 startbootstrap-bare-gh-pages/gulpfile.js
+ create mode 100644 startbootstrap-bare-gh-pages/index.html
+ create mode 100644 startbootstrap-bare-gh-pages/package-lock.json
+
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git push -u https://github.com/lnavarroa/dropship/ master
+Enumerating objects: 39, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (29/29), 1.24 MiB | 134.00 KiB/s, done.
+Total 29 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas: 100% (10/10), completed with 6 local objects.
+remote:
+remote: GitHub found 5 vulnerabilities on lnavarroa/dropship's default branch (3 high, 2 moderate). To find out more, visit:
+remote:      https://github.com/lnavarroa/dropship/network/alerts
+remote:
+To https://github.com/lnavarroa/dropship/
+   ec2c27a..304610b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'https://github.com/lnavarroa/dropship/'.
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
