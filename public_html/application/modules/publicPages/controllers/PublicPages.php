@@ -13,7 +13,12 @@ class PublicPages extends MX_Controller {
 		$this->load->view('publicView');
 	}
 
-public function call_to_welcome()
+	 	public function dropshipping()
+ 	{
+ 		$this->load->view('dropshipping');
+ 	}
+
+	public function call_to_welcome()
  	{
  		Modules::load('welcome')->index();
  		//$this->load->module('publicPages');

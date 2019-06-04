@@ -53,7 +53,7 @@ $route['default_controller'] = 'publicPages';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['publicPages'] = 'publicPages';
+$route['dropshipping'] = 'publicPages/dropshipping';
 $route['module1'] = 'module1';
 $route['module2'] = 'module2';
 $route['module3'] = 'module3';

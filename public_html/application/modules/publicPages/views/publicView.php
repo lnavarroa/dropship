@@ -57,13 +57,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+          <h2>Qué es el dropshipping?</h2>
+          <p class="lead">Es una modalidad de negocio variante del e-commerce, en donde se deja de lado la 
+          logística tradicional, ya que aquí entran en juego 3 actores principales:</p>
           <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+            <li><b>Cliente</b> es quién necesita y compra un producto en un e-commerce. </li>
+            <li><b>E-commerce</b> gestiona la atención y facturación del cliente, además genera la orden para el dropshipper.</li>
+            <li><b>Dropshipper</b> puede ser un mayorista, importador o fabrica, el cual recibe la orden de compra del e-commerce
+            y realiza el despacho del producto directamente hacia el cliente, pero bajo el nombre o marca del e-commerce.</li>
+            <li><a  href="<?php base_url() ?>dropshipping">Leer más</a></li>
           </ul>
         </div>
       </div>
@@ -95,7 +97,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Derechos reservados &copy; DropShip 2019</p>
     </div>
     <!-- /.container -->
   </footer>
