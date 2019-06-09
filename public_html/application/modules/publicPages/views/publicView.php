@@ -62,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           logística tradicional, ya que aquí entran en juego 3 actores principales:</p>
           <ul>
             <li><b>Cliente</b> es quién necesita y compra un producto en un e-commerce. </li>
-            <li><b>E-commerce</b> gestiona la atención y facturación del cliente, además genera la orden para el dropshipper.</li>
+            <li><b>E-commerce</b> gestiona la atención y facturación al cliente, además genera la orden para el dropshipper.</li>
             <li><b>Dropshipper</b> puede ser un mayorista, importador o fabrica, el cual recibe la orden de compra del e-commerce
             y realiza el despacho del producto directamente hacia el cliente, pero bajo el nombre o marca del e-commerce.</li>
             <li><a  href="<?php base_url() ?>dropshipping">Leer más</a></li>
@@ -76,8 +76,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          <h2>Servicio</h2>
+          <p class="lead">Proporcionamos un portal de encuentro entre emprendedores, tanto si eres un e-commerce o un mayorista
+          </p>
+          <ul>
+            <li><b>E-commerce</b> Encuentra proveedores mayoristas que distribuyan tu producto.</li>
+            <li><b>Dropshipper</b> Ofrece tus productos a los distintos e-commerce.</li>
+            <li><a  href="<?php base_url() ?>dropshipping">Leer más</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -87,8 +93,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <h2>Contactanos</h2>
+          <p class="lead">Resolveremos tus dudas a la brevedad.</p>
         </div>
       </div>
     </div>
@@ -97,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Derechos reservados &copy; DropShip 2019</p>
+      <p class="m-0 text-center text-white"> &copy; DropShip Chile 2019</p>
     </div>
     <!-- /.container -->
   </footer>

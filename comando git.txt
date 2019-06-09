@@ -93,3 +93,119 @@ To https://github.com/lnavarroa/dropship/
 Branch 'master' set up to track remote branch 'master' from 'https://github.com/lnavarroa/dropship/'.
 
 Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+
+
+
+
+***************************////////////////**************************
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git init
+Reinitialized existing Git repository in C:/xampp/htdocs/dropship/.git/
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git pull https://github.com/lnavarroa/dropship master
+From https://github.com/lnavarroa/dropship
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git add .
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git add -A
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git commit -m "Separacción secciones header, contenido, footer"
+[master c70896f] Separacción secciones header, contenido, footer
+ 72 files changed, 1004 insertions(+), 25794 deletions(-)
+ delete mode 100644 benedmunds-CodeIgniter-Ion-Auth-2.6.0-709-gc90d9e9.zip
+ delete mode 100644 bootstrap-4.3.1-dist.zip
+ delete mode 100644 ionauthci3-master.zip
+ create mode 100644 public_html/application/modules/publicPages/views/dropshipping.php
+ create mode 100644 public_html/application/modules/publicPages/views/footer.php
+ create mode 100644 public_html/application/modules/publicPages/views/header.php
+ rewrite public_html/application/modules/publicPages/views/publicView.php (65%)
+ create mode 100644 public_html/assets/bootstrap/dist/css/scrolling-nav.css
+ create mode 100644 public_html/assets/bootstrap/js/dist/scrolling-nav.js
+ delete mode 100644 startbootstrap-bare-gh-pages/index.html
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap-grid.css
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap-grid.css.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap-grid.min.css
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap-grid.min.css.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap-reboot.css
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap-reboot.css.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap-reboot.min.css
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap-reboot.min.css.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.css
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.css.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.min.css
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/css/bootstrap.min.css.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.js.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.js
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.js.map
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.min.js
+ delete mode 100644 startbootstrap-bare-gh-pages/vendor/bootstrap/js/bootstrap.min.js.map
+ rename startbootstrap-bare-gh-pages.zip => startbootstrap-scrolling-nav-gh-pages.zip (94%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/.gitignore (100%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/.travis.yml (100%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/LICENSE (100%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/README.md (60%)
+ create mode 100644 startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/gulpfile.js (87%)
+ create mode 100644 startbootstrap-scrolling-nav-gh-pages/index.html
+ create mode 100644 startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/package-lock.json (99%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/package.json (69%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap-grid.css (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap-grid.css.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap-grid.min.css (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap-grid.min.css.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap-reboot.css (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap-reboot.css.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap-reboot.min.css (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap-reboot.min.css.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap.css (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap.css.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap.min.css (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/css/bootstrap.min.css.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/js/bootstrap.bundle.js (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/js/bootstrap.bundle.js.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/js/bootstrap.bundle.min.js (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/js/bootstrap.bundle.min.js.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/js/bootstrap.js (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/js/bootstrap.js.map (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/js/bootstrap.min.js (100%)
+ rename {bootstrap-4.3.1-dist => startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap}/js/bootstrap.min.js.map (100%)
+ create mode 100644 startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.compatibility.js
+ create mode 100644 startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.js
+ create mode 100644 startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.min.js
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/vendor/jquery/jquery.js (100%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/vendor/jquery/jquery.min.js (100%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/vendor/jquery/jquery.min.map (100%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/vendor/jquery/jquery.slim.js (100%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/vendor/jquery/jquery.slim.min.js (100%)
+ rename {startbootstrap-bare-gh-pages => startbootstrap-scrolling-nav-gh-pages}/vendor/jquery/jquery.slim.min.map (100%)
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$ git push -u https://github.com/lnavarroa/dropship/ master
+Enumerating objects: 48, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (33/33), 1.07 MiB | 182.00 KiB/s, done.
+Total 33 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), completed with 7 local objects.
+remote:
+remote: GitHub found 6 vulnerabilities on lnavarroa/dropship's default branch (4 high, 2 moderate). To find out more, visit:
+remote:      https://github.com/lnavarroa/dropship/network/alerts
+remote:
+To https://github.com/lnavarroa/dropship/
+   304610b..c70896f  master -> master
+Branch 'master' set up to track remote branch 'master' from 'https://github.com/lnavarroa/dropship/'.
+
+Luis@Luis-PC MINGW32 /c/xampp/htdocs/dropship (master)
+$
