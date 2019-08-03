@@ -1,26 +1,33 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class PublicPages extends MX_Controller {
+class Drop extends MX_Controller {
 
 	public function __construct()
  	{
  		parent::__construct();
  	}
  	
-	public function index()
+	public function head()
 	{
-		$this->vistas->_head();
-		$this->vistas->_footer();
-		
+		$this->load->view('global_views/head');
 	}
 
-		public function _index()
+	public function navbar()
 	{
-		$this->vistas->_header();
-		
-		
+		$this->load->view('global_views/navbar');
 	}
+
+	public function header()
+	{
+		$this->load->view('global_views/header');
+	}
+
+	public function footer()
+	{
+		$this->load->view('global_views/footer');
+	}
+
 
 	 	public function dropshipping()
  	{
